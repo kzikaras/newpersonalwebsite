@@ -1,0 +1,78 @@
+body {
+    overflow: hidden;
+}
+
+img {
+    width: 120px;
+    border: 1px solid rgb(225.0, 242.0, 241.0);
+}
+
+li {
+    font-size: 1.5rem;
+    padding: 10px;
+}
+
+li:hover {
+    cursor: pointer;
+    color: rgb(225.0, 242.0, 241.0);
+}
+
+.about-content {
+    display: none;
+}
+
+.projects-content {
+    display: none;
+}
+
+.education-content {
+    display: none;
+}
+
+.contact-content {
+    display: none;
+}
+
+.page {
+    display: none;
+}
+
+.side-bar {
+    height: 100vh;
+}
+
+.hero-content {
+    margin-top: 160px;
+}
+
+.main-content {
+    height: 100vh;
+}
+
+.nav {
+    margin-top: 75px;
+}
+
+.progress {
+    z-index: 10;
+    display: block;
+    height: 12px;
+    top: 50%;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.progress-container {
+    height: 100vh;
+}
+
+
+
+/* blur code
+
+-webkit-filter: blur(5px);
+-moz-filter: blur(5px);
+-o-filter: blur(5px);
+-ms-filter: blur(5px);
+filter: blur(5px); */
