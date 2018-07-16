@@ -18,7 +18,9 @@ var currentActive;
 // set timeout for loader
 setTimeout(function(){
     $progressBar.fadeOut();
-    $page.fadeIn(3000);
+    $page.fadeIn(2000);
+    $aboutContent.fadeIn(4000);
+    currentActive = $aboutContent;
 }, 3000);
 
 // setup clicks for navigation and fade-in content
